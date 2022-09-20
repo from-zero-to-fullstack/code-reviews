@@ -44,3 +44,12 @@ function getLastCharacter(string) {
 console.log(checkPalindrome('ABBA'));
 console.log(checkPalindrome('Sapo'));
 console.log(checkPalindrome('Arara'));
+
+module.exports = {
+    isPalindrome,
+    getMessage,
+    convertToLowerCase,
+    getFirstCharacter,
+    getMiddleCharacters,
+    getLastCharacter,
+};
