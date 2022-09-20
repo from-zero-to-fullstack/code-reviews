@@ -19,6 +19,38 @@ Mariana will write the code and Pedro will review and give his opinion.
 | -- | -- |
 | Palindrome | 📄 [Documentation](./exercises/palindrome/README.md) |
 
+## How to create a new exercise
+
+1. Create a new folder inside `exercises` folder
+1. Create a new file with the code
+
+### If you need to create a package.json
+
+1. Open terminal and execute `npm init -y`
+1. Create a new script to execute the code
+   ```bash
+     {
+         "scripts": {
+           "execute": "node {filename}.js"
+         }
+     }
+     ```
+
+### If you need to create tests:
+
+1. Open terminal and execute `npm i --save-dev jest`
+1. Create a new file with the same name as the main file + `.test.js`
+   example: `main.test.js`
+1. Create a new script to execute the tests:
+   ```bash
+   {
+       "scripts": {
+         ...
+         "test": "jest"
+       }
+   }
+   ```
+
 # Setup
 
 ## Run locally
