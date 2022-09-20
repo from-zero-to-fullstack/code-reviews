@@ -1,0 +1,13 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "main": "palindrome.js",
+  "scripts": {
+    "execute": "node ./palindrome.js",
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}

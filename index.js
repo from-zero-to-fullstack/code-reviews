@@ -1,0 +1,1 @@
+console.log('Search for the exercise in "exercises" folder and read the README.md file');
