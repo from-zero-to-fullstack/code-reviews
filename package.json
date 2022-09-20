@@ -1,0 +1,24 @@
+{
+    "name": "code-reviews",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/palindrome.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/from-zero-to-fullstack/code-reviews.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/from-zero-to-fullstack/code-reviews/issues"
+    },
+    "homepage": "https://github.com/from-zero-to-fullstack/code-reviews#readme",
+    "devDependencies": {
+        "jest": "^29.0.3",
+        "prettier": "2.6.2"
+    }
+}
